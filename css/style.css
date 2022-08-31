@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.main {
+  display: flex;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  padding: 16px 25px 16px 25px;
+  background-color: #dd0000;
+  color: #ffff;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.btn i {
+  margin-left: 10px;
+}
+
+.pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 26px;
+}
+
+/*======================================
+ common css end
+ ====================================== */
+
+/*======================================
+ banner css start
+ ====================================== */
+#banenr .main {
+  background: #161616;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#banenr .main .text {
+  width: 55%;
+  padding-left: 100px;
+  padding-top: 111px;
+  padding-bottom: 111px;
+}
+#banenr .main .img {
+  width: 45%;
+  position: relative;
+}
+#banenr .main .text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: capitalize;
+}
+#banenr .main .text h1 span {
+  color: #dd0000;
+  font-size: 25px;
+  font-weight: 700;
+  display: inline-block;
+  width: 309px;
+  line-height: 24px;
+}
+
+#banenr .main .text p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+#banenr .main .img img {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
+#banenr a:hover {
+  background: #ffff;
+  color: #dd0000;
+}
+/*======================================
+ banner css end
+ ====================================== */
+
+/*======================================
+ blog css start
+ ====================================== */
+#blog {
+  padding: 130px 0;
+}
+
+#blog .main {
+  justify-content: space-between;
+}
+#blog .left {
+  width: 22%;
+}
+#blog .right {
+  width: 76%;
+}
+#blog .right .main{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.view_all{
+  display: none;
+}
+
+#blog .left .buttons {
+  background: #161616;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#blog .left a {
+  display: block;
+  text-align: center;
+  background: #ffff;
+  color: #161616;
+}
+
+#blog .left li {
+  margin-bottom: 30px;
+}
+#blog .left li:last-child {
+  margin-bottom: 0;
+}
+
+
+.left .upcoming {
+  color: #ffff !important;
+  background-color: #dd0000 !important;
+}
+
+.left .blog_button {
+  color: #ffff !important;
+  background-color: #dd0000 !important;
+}
+
+
+#blog .flag_item .details {
+	padding: 0;
+}
+
+
+#blog .item {
+  width: 32%;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#blog .item img {
+  width: 100%;
+}
+
+#blog .item a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #161616;
+  padding: 4px 15px;
+  border: 1px solid #161616;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#blog .item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#blog .data_time {
+  display: flex;
+}
+#blog .data_time p {
+  font-size: 16px;
+  color: #161616;
+  margin-right: 30px;
+}
+#blog .data_time p i {
+  margin-right: 5px;
+}
+
+#blog .details {
+  padding: 0 16px 40px 16px;
+}
+
+
+.s_device{
+  display: none !important;
+}
+
+
+.blog_part .img .flag{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog_part .img .flag h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #161616;
+}
+
+.blog_part .flag_item{
+  padding: 53px 30px;
+}
+
+
+.flag_item h4{
+  margin-top: 20px;
+  margin-bottom: 10px !important;
+}
+
+.flag_item p{
+  color: #4D4D4D;
+}
+
+.blog_part .flag_item{
+  text-align: center;
+}
+.blog_part .flag_item .details {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+ blog css end
+ ====================================== */
+
+/*======================================
+ footer css start
+ ====================================== */
+ #footer{
+    padding: 130px 0;
+    background: #161616;
+ }
+
+ #footer h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    margin-bottom: 50px;
+ }
+
+ #footer ul li{
+    display: inline-block;
+ }
+
+
+ #footer ul {
+    text-align: center;
+ }
+
+ #footer ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    margin:0 25px;
+    transition: .4s;
+}
+#footer ul li a:hover{
+    color: #dd0000;
+}
+
+
+
+/*======================================
+ footer css end
+ ====================================== */

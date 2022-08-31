@@ -1,0 +1,284 @@
+/* @media (min-width: 768px) and (max-width: 1199.98px) { ... } */
+/* @media (min-width: 768px) and (max-width: 1199.98px) { ... } */
+@media (min-width: 320px) and (max-width: 668px) {
+
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+       padding:0 20px;
+      }
+
+    #banenr .main {
+        flex-direction: column;
+        padding:  0 20px ;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-top: 20px;
+}
+
+.big_device{
+    display: none;
+}
+
+.s_device{
+    display: block !important;
+}
+
+
+
+    #banenr .main .text {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #banenr .main .img {
+        width: 100%;
+        position: relative;
+    }
+
+    #banenr .main .text h1 {
+        font-size: 22px;
+        color: #ffff;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    #banenr .main .text h1 span {
+        color: #dd0000;
+        font-size: 16px;
+        width: auto;
+        display: block;
+    }
+
+    #banenr .main .img{
+        margin: auto;
+    }
+    #banenr .main .img img {
+        position: static;
+        right: 30px;
+        bottom: 0;
+        display: block;
+        width: 100%;
+    }
+
+    #banenr .main .text p {
+        width: auto;
+    }
+
+    #blog {
+        padding: 50px 0;
+    }
+
+    #blog .main {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    #blog .left {
+        width: 100%;
+    }
+
+    #blog .right {
+        width: 100%;
+    }
+
+    #blog .right .main {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    #blog .item {
+        width: 100%;
+    }
+
+    #blog .left .buttons {
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+    }
+
+    #footer ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .view_all{
+        display: none;
+      }
+
+}
+
+@media (min-width: 668px) and (max-width: 992px) {
+
+    .container {
+        max-width: 668px;
+        margin: 0 auto;
+        padding:0 50px;
+      }
+
+      #banenr .main .text {
+        width: 55%;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+
+    #banenr .main .text h1 {
+        font-size: 35px;
+    }
+
+    #banenr .main{
+        flex-direction: row;
+    }
+
+    #banenr .main .text p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    #banenr .main .img img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #banenr .main .text h1 span {
+        font-size: 18px;
+        font-weight: 700;
+        display: inline-block;
+        width: 309px;
+        line-height: 24px;
+     
+    }
+
+
+    .big_device{
+        display: none;
+    }
+    .s_device{
+        display: block !important;
+    }
+
+
+
+    #blog {
+        padding: 50px 0;
+    }
+
+    #blog .main {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    #blog .left {
+        width: 100%;
+    }
+
+    #blog .right {
+        width: 100%;
+    }
+
+    #blog .right .main {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    #blog .item {
+        width: 48%;
+    }
+
+    #blog .left .buttons {
+        margin-bottom: 20px;
+    }
+
+    #blog .left .buttons  ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #blog .left .buttons  ul li{
+        width: 30%;
+    }
+
+    #blog .left .buttons {
+        background: transparent;
+        padding: 0;
+    }
+
+
+    #blog .left .buttons .btn {
+        padding: 16px 0 16px 0 !important;
+        border: 1px solid #E8E8E8;
+}
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+    }
+    #banenr .main .text h1 {
+        text-align: left;
+    }
+
+    #banenr .main .text p {
+        text-align: left;
+    }
+    #footer ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .view_all_button{
+        text-align: center;
+    }
+
+    #banenr .main .img {
+        width: 50%;
+        position: relative;
+    }
+    #banenr .main .img {
+        right: 0;
+        bottom: 0;
+    }
+
+    .view_all{
+        display: inline-block;
+        text-align: center;
+    }
+
+    #footer ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #footer ul li{
+        width: 30%;
+    }
+    #footer ul li a{
+        margin: 0 !important;
+    }
+}
+    
+

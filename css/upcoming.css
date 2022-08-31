@@ -1,0 +1,44 @@
+.blog_part .img .flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog_part .img .flag h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+  }
+  
+  .blog_part .flag_item{
+    padding: 53px 30px;
+  }
+  
+  
+  .flag_item h4{
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+  }
+  
+  .flag_item p{
+    color: #4D4D4D;
+  }
+  
+  .blog_part .flag_item{
+    text-align: center;
+  }
+  .blog_part .flag_item .details {
+      padding: 0;
+  }
+  
+  
+  .upcoming .buttons ul li:first-child a{
+  background: #dd0000;
+  color: #ffff;
+  }
+  
+  .upcoming .buttons ul li:last-child a{
+  background: #ffff;
+  color: #161616;
+  }
+  
